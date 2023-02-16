@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>numeric string (like "645") converts to a number (like 645).
+
+        <br> empty string ("") converts to 0.
+
+        <br>A non numeric string (like "chirag") converts to NaN (Not a Number).
+
+    </p>
+    <p id="demo"></p>
+
+    <script>
+        let y = "5";
+        let x = + y;
+        let z = "h0 00";
+        document.getElementById("demo").innerHTML = typeof y + "<br>" + typeof x + "<br>" + typeof z;
+    </script>
+    <h1>unary operator</h1>
+    <p>The unary + operator can be used to convert a variable to a number.</p>
+    <p>If the variable cannot be converted, it will still become a number, but with the value NaN (Not a Number).</p>
+    <script>
+        let j = 147;
+        document.getElementById("demo").innerHTML =
+            String(j) + "<br>" +
+            String(147) + "<br>" +
+            String(100 + 47);
+    </script>
+
+    <h1 align="center">declaring variable</h1>
+    How do you declare a JavaScript variable example?
+    Always declare JavaScript variables with var , let , or const . The var keyword is used in all JavaScript code from
+    1995 to 2015. The let and const keywords were added to JavaScript in 2015.
+
+    for example:
+    <script>
+        let name = "chirag";
+         
+    </script>
+    here i have declared variable 'name' an string value.
+</body>
+
+</html>
